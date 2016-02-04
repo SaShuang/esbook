@@ -1,5 +1,5 @@
 ## 阅读本书
-- zh [中文版](/zh/preface.md)
+- [中文版](/zh/preface.md)
  
 ## 交流-ESAP部落
 `QQ群：275205931`
