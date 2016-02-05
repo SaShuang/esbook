@@ -42,4 +42,4 @@ Blog：[http://iesap.net/)
 ## 许可
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
-Code License: BSD 3-Clause License
+Code License: [BSD 3-Clause License](LICENSE.md)
