@@ -11,7 +11,7 @@ Blog：[http://iesap.net/)
 
 |姓名|第1章|第2章|第3章|第4章|第5章|第6章|贡献度|
 |:----|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Castle	|[1.5][c]| | |[4.3][c],[4.4][c],[4.5][c]|[5.6][c]| |5|
+|Castle	|![1.5][c]| | |![4.3][c],![4.4][c],![4.5][c]|![5.6][c]| |5|
 |DHL	| | | |4.1| | |1|
 |heming	| | | |4.2| | |1|
 |kang	| | | |4.3| | |1|
@@ -38,10 +38,10 @@ Blog：[http://iesap.net/)
 |张PM	|1.2,1.4|2.2,2.3| | |5.2,5.7|6.1|11|
 |㊣FireFly♂|1.2| | | | | |4|
 
-[c]:images/c.png
-[b]:images/b.png
-[a]:images/a.png
-[s]:images/s.png
+[c]:zh/images/c.png
+[b]:zh/images/b.png
+[a]:zh/images/a.png
+[s]:zh/images/s.png
 
 ## 关于本书
 * 一本来自ESAP部落的ES应用百科全书
