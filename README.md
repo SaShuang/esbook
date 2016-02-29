@@ -51,7 +51,7 @@ Blog：[http://iesap.net/)
 
 ## 我的奋斗
 * 与君共勉
-![](zh/images/1.0.jpg)
+![](zh/images/1.0.png)
  
 ## 许可
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
