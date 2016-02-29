@@ -48,6 +48,11 @@ Blog：[http://iesap.net/)
 ## 关于本书
 * 一本来自ESAP部落的ES应用百科全书
  
+
+## 我的奋斗
+* 与君共勉
+![](zh/images/1.0.jpg)
+ 
 ## 许可
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
