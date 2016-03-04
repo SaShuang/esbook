@@ -27,7 +27,7 @@ Blog：[http://iesap.net/)
 |荊喌	| | | |![4.11][c]| | |1|
 |快乐有限|![1.7][b]| | | | | |4|
 |昆明haotian| | | | |![5.7][c]| |1|
-|柳亚子	| | | | |![5.8][b]|![6.2][c]|5|
+|柳亚子	|![1.4][c]| | | |![5.8][b]|![6.2][c]|6|
 |路柏	|![1.8][b]| | | | | |4|
 |毛毛	|![1.1][c]| |![3.3][c]|![4.8][c]|![5.1][b]| |7|
 |清风	| | |![3.6][b]| |![5.1][c]| |5|
@@ -46,14 +46,13 @@ Blog：[http://iesap.net/)
 [s]:zh/images/s.png "+64"
 
 ## 关于本书
-* 一本来自ESAP部落的ES应用百科全书
- 
-
-## 我的奋斗
-* 与君共勉
-![](zh/images/1.0.png)
+* 一本来自ESAP部落的ES应用百科全书 
  
 ## 许可
 Book License: [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)
 
 Code License: [BSD 3-Clause License](LICENSE.md)
+
+## 我的奋斗
+* 与君共勉
+![](zh/images/1.0.png)
