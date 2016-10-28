@@ -1,11 +1,11 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
         'facebook': {
-            'label': 'Facebook',
-            'icon': 'fa fa-facebook',
+            'label': 'Github',
+            'icon': 'fa fa-github',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
+                window.open('http://github.com/woylyn/esbook');
             }
         },
         'twitter': {
