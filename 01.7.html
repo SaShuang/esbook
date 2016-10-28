@@ -1,0 +1,1180 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>“新事务不能登记”(DTC)等外部数据源相关 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="01.8.html" />
+    
+    
+    <link rel="prev" href="01.6.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01.0.html">
+            
+                <a href="01.0.html">
+            
+                    
+                    菜鸟科技 - ES
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01.1.html">
+            
+                <a href="01.1.html">
+            
+                    
+                    什么是“三重生”
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="01.2.html">
+            
+                <a href="01.2.html">
+            
+                    
+                    EXCEL服务器-非常新新手入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="01.3.html">
+            
+                <a href="01.3.html">
+            
+                    
+                    ES常见问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="01.4.html">
+            
+                <a href="01.4.html">
+            
+                    
+                    ES花式技巧汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="01.5.html">
+            
+                <a href="01.5.html">
+            
+                    
+                    命令行运行ES
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="01.6.html">
+            
+                <a href="01.6.html">
+            
+                    
+                    数据表引用关系简析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.7" data-path="01.7.html">
+            
+                <a href="01.7.html">
+            
+                    
+                    “新事务不能登记”(DTC)等外部数据源相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="01.8.html">
+            
+                <a href="01.8.html">
+            
+                    
+                    回写公式提交本任务使用方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="01.9.html">
+            
+                <a href="01.9.html">
+            
+                    
+                    登陆框右侧公告和换行修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="01.10.html">
+            
+                <a href="01.10.html">
+            
+                    
+                    实现ES列表选择不重复
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02.0.html">
+            
+                <a href="02.0.html">
+            
+                    
+                    白科技 - Excel
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="02.1.html">
+            
+                <a href="02.1.html">
+            
+                    
+                    如何隐藏Excel中不需要的行或列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="02.2.html">
+            
+                <a href="02.2.html">
+            
+                    
+                    EXCEL应用汇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="02.3.html">
+            
+                <a href="02.3.html">
+            
+                    
+                    实现明细字段不允许重复
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="02.4.html">
+            
+                <a href="02.4.html">
+            
+                    
+                    动态显示图片示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="02.5.html">
+            
+                <a href="02.5.html">
+            
+                    
+                    EXCEL公式获取当前单元格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="02.6.html">
+            
+                <a href="02.6.html">
+            
+                    
+                    正则表达式实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="02.7.html">
+            
+                <a href="02.7.html">
+            
+                    
+                    Excel里面使用透视图方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="02.8.html">
+            
+                <a href="02.8.html">
+            
+                    
+                    Excel批量打印卡证的方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03.0.html">
+            
+                <a href="03.0.html">
+            
+                    
+                    灰科技 - SQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="03.1.html">
+            
+                <a href="03.1.html">
+            
+                    
+                    SQL应用汇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="03.2.html">
+            
+                <a href="03.2.html">
+            
+                    
+                    SQL触发器应用示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="03.3.html">
+            
+                <a href="03.3.html">
+            
+                    
+                    库存月报表示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="03.4.html">
+            
+                <a href="03.4.html">
+            
+                    
+                    查询编辑中的单据的视图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="03.5.html">
+            
+                <a href="03.5.html">
+            
+                    
+                    不断号自动编号函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="03.6.html">
+            
+                <a href="03.6.html">
+            
+                    
+                    数据表中ExcelServerRcId等系统字段的含义说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="03.7.html">
+            
+                <a href="03.7.html">
+            
+                    
+                    批量设置登录中断已有连接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="03.8.html">
+            
+                <a href="03.8.html">
+            
+                    
+                    ES存储图片的机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="03.9.html">
+            
+                <a href="03.9.html">
+            
+                    
+                    手工SQL添加es数据记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04.0.html">
+            
+                <a href="04.0.html">
+            
+                    
+                    黑科技 - VBA
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="04.1.html">
+            
+                <a href="04.1.html">
+            
+                    
+                    明细选择判定示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="04.2.html">
+            
+                <a href="04.2.html">
+            
+                    
+                    提取中英文字符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="04.3.html">
+            
+                <a href="04.3.html">
+            
+                    
+                    打印检测及打印机相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="04.4.html">
+            
+                <a href="04.4.html">
+            
+                    
+                    图文混排显示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="04.5.html">
+            
+                <a href="04.5.html">
+            
+                    
+                    图片插入接口怎么用？怎么点哪插哪等
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="04.6.html">
+            
+                <a href="04.6.html">
+            
+                    
+                    将数字翻译成英文
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="04.7.html">
+            
+                <a href="04.7.html">
+            
+                    
+                    点击单元格打勾
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="04.8.html">
+            
+                <a href="04.8.html">
+            
+                    
+                    点击行打开对应报表示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="04.9.html">
+            
+                <a href="04.9.html">
+            
+                    
+                    汉字转拼音缩写及单元格文字合并
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="04.10.html">
+            
+                <a href="04.10.html">
+            
+                    
+                    触摸屏输入支持示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="04.11.html">
+            
+                <a href="04.11.html">
+            
+                    
+                    VBA应用汇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="04.12.html">
+            
+                <a href="04.12.html">
+            
+                    
+                    不卡不闪的点击变色方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="04.13.html">
+            
+                <a href="04.13.html">
+            
+                    
+                    各种进度条示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05.0.html">
+            
+                <a href="05.0.html">
+            
+                    
+                    黑洞科技 - 解决方案
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="05.1.html">
+            
+                <a href="05.1.html">
+            
+                    
+                    使用VBA+SQL存储过程代替提数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="05.2.html">
+            
+                <a href="05.2.html">
+            
+                    
+                    Excel玩转二维码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="05.3.html">
+            
+                <a href="05.3.html">
+            
+                    
+                    VBA+Bartender标签打印攻略
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="05.4.html">
+            
+                <a href="05.4.html">
+            
+                    
+                    股权证批量打印（指定范围）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="05.5.html">
+            
+                <a href="05.5.html">
+            
+                    
+                    非连续数据的批量打印
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="05.6.html">
+            
+                <a href="05.6.html">
+            
+                    
+                    ES玩转批注
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="05.7.html">
+            
+                <a href="05.7.html">
+            
+                    
+                    明细行锁定-审核记录不能修改删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="05.8.html">
+            
+                <a href="05.8.html">
+            
+                    
+                    自动打印指定的打印模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="05.9.html">
+            
+                <a href="05.9.html">
+            
+                    
+                    实现模板分页
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="05.10.html">
+            
+                <a href="05.10.html">
+            
+                    
+                    超链接跳转填报及返回刷新示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="05.11.html">
+            
+                <a href="05.11.html">
+            
+                    
+                    复选框多选列表的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="05.12.html">
+            
+                <a href="05.12.html">
+            
+                    
+                    VBA+勤哲实现批量添加网络图片(对接阿里巴巴)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06.0.html">
+            
+                <a href="06.0.html">
+            
+                    
+                    其它分享
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="06.1.html">
+            
+                <a href="06.1.html">
+            
+                    
+                    模板配色、功能欣赏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="06.2.html">
+            
+                <a href="06.2.html">
+            
+                    
+                    全国省市区镇数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="06.3.html">
+            
+                <a href="06.3.html">
+            
+                    
+                    调用摄像头拍照
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="06.4.html">
+            
+                <a href="06.4.html">
+            
+                    
+                    ok8的破解信息修改
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="06.5.html">
+            
+                <a href="06.5.html">
+            
+                    
+                    全国大地图Excel版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="06.6.html">
+            
+                <a href="06.6.html">
+            
+                    
+                    128码字体应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="06.7.html">
+            
+                <a href="06.7.html">
+            
+                    
+                    各种VBA资料打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="ref.html">
+            
+                <a href="ref.html">
+            
+                    
+                    参考资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >“新事务不能登记”(DTC)等外部数据源相关</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="17-&#x65B0;&#x4E8B;&#x52A1;&#x4E0D;&#x80FD;&#x767B;&#x8BB0;&#x7B49;&#x5916;&#x90E8;&#x6570;&#x636E;&#x6E90;&#x76F8;&#x5173;">1.7 &#x201C;&#x65B0;&#x4E8B;&#x52A1;&#x4E0D;&#x80FD;&#x767B;&#x8BB0;&#x201D;&#x7B49;&#x5916;&#x90E8;&#x6570;&#x636E;&#x6E90;&#x76F8;&#x5173;</h1>
+<h2 id="msdtc&#x4E0D;&#x53EF;&#x7528;&#x89E3;&#x51B3;&#x65B9;&#x6848;">MSDTC&#x4E0D;&#x53EF;&#x7528;&#x89E3;&#x51B3;&#x65B9;&#x6848;</h2>
+<ol>
+<li><p>&#x5728;windows&#x63A7;&#x5236;&#x9762;&#x7248;--&gt;&#x7BA1;&#x7406;&#x5DE5;&#x5177;--&gt;&#x670D;&#x52A1;--&gt;Distributed Transaction Coordinato--&gt;&#x5C5E;&#x6027;--&gt;&#x542F;&#x52A8;<br>&#x786E;&#x4FDD;&#x5176;&#x4F9D;&#x8D56;&#x8FDB;&#x7A0B;&#x5747;&#x5DF2;&#x542F;&#x52A8;<br><img src="images/1.7.1.jpg" alt=""></p>
+</li>
+<li><p>&#x5982;&#x679C;&#x5728;&#x7B2C;1&#x6B65; Distributed Transaction Coordinator &#x65E0;&#x6CD5;&#x542F;&#x52A8;&#xFF0C;&#x5219;&#x662F;&#x56E0;&#x4E3A;&#x4E22;&#x5931;&#x4E86;&#x5FD7;&#x6587;&#x4EF6;&#xFF0C;&#x91CD;&#x65B0;&#x521B;&#x5EFA;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#xFF0C;&#x518D;&#x542F;&#x52A8;&#x5C31;&#x884C;&#x4E86;&#x3002;</p>
+<h3 id="&#x91CD;&#x65B0;&#x521B;&#x5EFA;msdtc-&#x65E5;&#x5FD7;&#x5E76;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x3002;">&#x91CD;&#x65B0;&#x521B;&#x5EFA;MSDTC &#x65E5;&#x5FD7;,&#x5E76;&#x91CD;&#x65B0;&#x542F;&#x52A8;&#x670D;&#x52A1;&#x3002;</h3>
+<pre><code class="lang-sh">msdtc -resetlog
+net start msdtc
+</code></pre>
+</li>
+</ol>
+<h2 id="oledb-&#x65B0;&#x4E8B;&#x52A1;&#x4E0D;&#x80FD;&#x767B;&#x8BB0;">OLE/DB &#x65B0;&#x4E8B;&#x52A1;&#x4E0D;&#x80FD;&#x767B;&#x8BB0;</h2>
+<p>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;  </p>
+<ol>
+<li><p>&#x53CC;&#x65B9;&#x542F;&#x52A8;MSDTC&#x670D;&#x52A1;<br>MSDTC&#x670D;&#x52A1;&#x63D0;&#x4F9B;&#x5206;&#x5E03;&#x5F0F;&#x4E8B;&#x52A1;&#x670D;&#x52A1;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x5728;&#x6570;&#x636E;&#x5E93;&#x4E2D;&#x4F7F;&#x7528;&#x5206;&#x5E03;&#x5F0F;&#x4E8B;&#x52A1;&#xFF0C;&#x5FC5;&#x987B;&#x5728;&#x53C2;&#x4E0E;&#x7684;&#x53CC;&#x65B9;&#x670D;&#x52A1;&#x5668;&#x542F;&#x52A8;MSDTC&#xFF08;Distributed Transaction Coordinator&#xFF09;&#x670D;&#x52A1;&#x3002;</p>
+</li>
+<li><p>&#x6253;&#x5F00;&#x53CC;&#x65B9;135&#x7AEF;&#x53E3;<br>MSDTC&#x670D;&#x52A1;&#x4F9D;&#x8D56;&#x4E8E;RPC&#xFF08;Remote Procedure Call (RPC)&#xFF09;&#x670D;&#x52A1;,RPC&#x4F7F;&#x7528;135&#x7AEF;&#x53E3;&#xFF0C;&#x4FDD;&#x8BC1;RPC&#x670D;&#x52A1;&#x542F;&#x52A8;&#xFF0C;&#x5982;&#x679C;&#x670D;&#x52A1;&#x5668;&#x6709;&#x9632;&#x706B;&#x5899;&#xFF0C;&#x4FDD;&#x8BC1;135&#x7AEF;&#x53E3;&#x4E0D;&#x88AB;&#x9632;&#x706B;&#x5899;&#x6321;&#x4F4F;&#x3002;<br>&#x4F7F;&#x7528;&#x201C;telnet IP 135 &#x201D;&#x547D;&#x4EE4;&#x6D4B;&#x8BD5;&#x5BF9;&#x65B9;&#x7AEF;&#x53E3;&#x662F;&#x5426;&#x5BF9;&#x5916;&#x5F00;&#x653E;&#x3002;&#x4E5F;&#x53EF;&#x7528;&#x7AEF;&#x53E3;&#x626B;&#x63CF;&#x8F6F;&#x4EF6;&#xFF08;&#x6BD4;&#x5982;Advanced Port Scanner&#xFF09;&#x626B;&#x63CF;&#x7AEF;&#x53E3;&#x4EE5;&#x5224;&#x65AD;&#x7AEF;&#x53E3;&#x662F;&#x5426;&#x5F00;&#x653E;&#x3002;  </p>
+</li>
+<li><p>&#x4FDD;&#x8BC1;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x8BED;&#x53E5;&#x6CA1;&#x6709;&#x8BBF;&#x95EE;&#x53D1;&#x8D77;&#x4E8B;&#x52A1;&#x670D;&#x52A1;&#x5668;&#x7684;&#x64CD;&#x4F5C;<br>&#x5728;&#x53D1;&#x8D77;&#x4E8B;&#x52A1;&#x7684;&#x670D;&#x52A1;&#x5668;&#x6267;&#x884C;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x67E5;&#x8BE2;&#x3001;&#x89C6;&#x56FE;&#x6216;&#x5B58;&#x50A8;&#x8FC7;&#x7A0B;&#x4E2D;&#x542B;&#x6709;&#x8BBF;&#x95EE;&#x53D1;&#x8D77;&#x4E8B;&#x52A1;&#x670D;&#x52A1;&#x5668;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD9;&#x6837;&#x7684;&#x64CD;&#x4F5C;&#x53EB;&#x505A;&#x73AF;&#x56DE;&#xFF08;loopback&#xFF09;&#xFF0C;&#x662F;&#x4E0D;&#x88AB;&#x652F;&#x6301;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x8981;&#x4FDD;&#x8BC1;&#x5728;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x4E0D;&#x5B58;&#x5728;&#x6B64;&#x7C7B;&#x64CD;&#x4F5C;&#x3002;  </p>
+</li>
+<li><p>&#x5728;&#x4E8B;&#x52A1;&#x5F00;&#x59CB;&#x524D;&#x52A0;&#x5165;set xact_abort ON&#x8BED;&#x53E5;<br>&#x5BF9;&#x4E8E;&#x5927;&#x591A;&#x6570; OLE DB &#x63D0;&#x4F9B;&#x7A0B;&#x5E8F;&#xFF08;&#x5305;&#x62EC; SQL Server&#xFF09;&#xFF0C;&#x5FC5;&#x987B;&#x5C06;&#x9690;&#x5F0F;&#x6216;&#x663E;&#x793A;&#x4E8B;&#x52A1;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x4FEE;&#x6539;&#x8BED;&#x53E5;&#x4E2D;&#x7684; XACT_ABORT &#x8BBE;&#x7F6E;&#x4E3A; ON&#x3002;&#x552F;&#x4E00;&#x4E0D;&#x9700;&#x8981;&#x8BE5;&#x9009;&#x9879;&#x7684;&#x60C5;&#x51B5;&#x662F;&#x5728;&#x63D0;&#x4F9B;&#x7A0B;&#x5E8F;&#x652F;&#x6301;&#x5D4C;&#x5957;&#x4E8B;&#x52A1;&#x65F6;&#x3002;<br><img src="images/1.7.3.jpg" alt=""></p>
+</li>
+<li><p>MSDTC&#x8BBE;&#x7F6E;<br>&#x6253;&#x5F00;&#x201C;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x2015;&#x2015;&#x7EC4;&#x4EF6;&#x670D;&#x52A1;&#x201D;&#xFF0C;&#x4EE5;&#x6B64;&#x6253;&#x5F00;&#x201C;&#x7EC4;&#x4EF6;&#x670D;&#x52A1;&#x2015;&#x2015;&#x8BA1;&#x7B97;&#x673A;&#x201D;&#xFF0C;&#x5728;&#x201C;&#x6211;&#x7684;&#x7535;&#x8111;&#x201D;&#x4E0A;&#x70B9;&#x51FB;&#x53F3;&#x952E;&#x3002;&#x5728;MSDTC&#x9009;&#x9879;&#x5361;&#x4E2D;&#xFF0C;&#x70B9;&#x51FB;&#x201C;&#x5B89;&#x5168;&#x914D;&#x7F6E;&#x201D;&#x6309;&#x94AE;&#x3002;<br>&#x5728;&#x5B89;&#x5168;&#x914D;&#x7F6E;&#x7A97;&#x53E3;&#x4E2D;&#x505A;&#x5982;&#x4E0B;&#x8BBE;&#x7F6E;&#xFF1A;  </p>
+<ul>
+<li>&#x9009;&#x4E2D;&#x201C;&#x7F51;&#x7EDC;DTC&#x8BBF;&#x95EE;&#x201D;  </li>
+<li>&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x7BA1;&#x7406;&#x4E2D;&#x9009;&#x4E2D;&#x201C;&#x5141;&#x8BB8;&#x8FDC;&#x7A0B;&#x5BA2;&#x6237;&#x7AEF;&#x201D;&#x201C;&#x5141;&#x8BB8;&#x8FDC;&#x7A0B;&#x7BA1;&#x7406;&#x201D;  </li>
+<li>&#x5728;&#x4E8B;&#x52A1;&#x7BA1;&#x7406;&#x901A;&#x8BAF;&#x4E2D;&#x9009;&#x201C;&#x5141;&#x8BB8;&#x5165;&#x7AD9;&#x201D;&#x201C;&#x5141;&#x8BB8;&#x51FA;&#x7AD9;&#x201D;&#x201C;&#x4E0D;&#x8981;&#x6C42;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x201D;  </li>
+<li>&#x4FDD;&#x8BC1;DTC&#x767B;&#x9646;&#x8D26;&#x6237;&#x4E3A;&#xFF1A;NT Authority\NetworkService<br><img src="images/1.7.2.jpg" alt=""></li>
+</ul>
+</li>
+<li><p>&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x548C;&#x540D;&#x79F0;&#x89E3;&#x6790;&#x95EE;&#x9898;<br>&#x5EFA;&#x7ACB;&#x94FE;&#x63A5;sql server&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x901A;&#x5E38;&#x6709;&#x4E24;&#x79CD;&#x60C5;&#x51B5;:  </p>
+<ul>
+<li><p>&#x7B2C;&#x4E00;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;&#x4EA7;&#x54C1;&#x9009;&#x201D;sql server&#x201D;</p>
+<pre><code class="lang-sql">EXEC sp_addlinkedserver
+@server=&apos;linkServerName&apos;,
+@srvproduct = N&apos;SQL Server&apos;
+</code></pre>
+<p>&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;@server &#xFF08;linkServerName&#xFF09;&#x5C31;&#x662F;&#x8981;&#x94FE;&#x63A5;&#x7684;sqlserver&#x670D;&#x52A1;&#x5668;&#x540D;&#x6216;&#x8005;ip&#x5730;&#x5740;&#x3002;</p>
+</li>
+<li><p>&#x7B2C;&#x4E8C;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;&#x8BBF;&#x95EE;&#x63A5;&#x53E3;&#x9009;&#x201C;Microsoft OLE DB Provider Sql Server&#x201D;&#x6216;&#x201C;Sql Native Client&#x201D;</p>
+<pre><code class="lang-sql">EXEC sp_addlinkedserver
+@server=&apos; linkServerName &apos;,
+@srvproduct=&apos;&apos;,
+@provider=&apos;SQLNCLI&apos;,
+@datasrc=&apos;sqlServerName&apos;
+</code></pre>
+<p>&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;@datasrc&#xFF08;sqlServerName&#xFF09;&#x5C31;&#x662F;&#x8981;&#x94FE;&#x63A5;&#x7684;&#x5B9E;&#x9645;sqlserver&#x670D;&#x52A1;&#x5668;&#x540D;&#x6216;&#x8005;ip&#x5730;&#x5740;&#x3002;<br>Sql server&#x6570;&#x636E;&#x5E93;&#x5F15;&#x64CE;&#x662F;&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x8BBE;&#x7F6E;&#x7684;&#x670D;&#x52A1;&#x5668;&#x540D;&#x6216;&#x8005;ip&#x5730;&#x5740;&#x8BBF;&#x95EE;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#xFF0C;DTC&#x670D;&#x52A1;&#x53EA;&#x901A;&#x8FC7;&#x670D;&#x52A1;&#x5668;&#x540D;&#x5730;&#x5740;&#x8BBF;&#x95EE;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6240;&#x4EE5;&#x8981;&#x4FDD;&#x8BC1;&#x6570;&#x636E;&#x5E93;&#x5F15;&#x64CE;&#x548C;DTC&#x90FD;&#x80FD;&#x901A;&#x8FC7;&#x670D;&#x52A1;&#x5668;&#x540D;&#x6216;&#x8005;ip&#x5730;&#x5740;&#x8BBF;&#x95EE;&#x5230;&#x94FE;&#x63A5;&#x670D;&#x52A1;&#x5668;&#x3002; </p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="&#x65E0;&#x6CD5;&#x5728;&#x6B64;&#x4F1A;&#x8BDD;&#x542F;&#x7528;&#x66F4;&#x591A;&#x7684;&#x4E8B;&#x52A1;">&#x65E0;&#x6CD5;&#x5728;&#x6B64;&#x4F1A;&#x8BDD;&#x542F;&#x7528;&#x66F4;&#x591A;&#x7684;&#x4E8B;&#x52A1;</h2>
+<p>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</p>
+<p><img src="images/1.7.3.png" alt=""></p>
+<h2 id="&#x672C;&#x8282;&#x8D21;&#x732E;&#x8005;">&#x672C;&#x8282;&#x8D21;&#x732E;&#x8005;</h2>
+<p><em>@&#x5FEB;&#x4E50;&#x6709;&#x9650;</em><br><em>@&#x8A2B;&#x8A2B;</em></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="01.6.html" class="navigation navigation-prev " aria-label="Previous page: 数据表引用关系简析">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="01.8.html" class="navigation navigation-next " aria-label="Next page: 回写公式提交本任务使用方法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"“新事务不能登记”(DTC)等外部数据源相关","level":"1.2.7","depth":2,"next":{"title":"回写公式提交本任务使用方法","level":"1.2.8","depth":2,"path":"01.8.md","ref":"01.8.md","articles":[]},"previous":{"title":"数据表引用关系简析","level":"1.2.6","depth":2,"path":"01.6.md","ref":"01.6.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"01.7.md","mtime":"2016-10-28T00:45:16.259Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-28T01:22:19.937Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
